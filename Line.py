@@ -1,8 +1,3 @@
-"""
-LESSON: 3.1 - Lines
-WARMUP 2
-"""
-
 import pygame
 pygame.init()
 
