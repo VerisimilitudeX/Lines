@@ -1,8 +1,3 @@
-"""
-LESSON: 3.1 - Lines
-EXERCISE: Dream House
-"""
-
 #### ---- SETUP ---- ####
 
 # Import the PYGAME library
@@ -103,9 +98,7 @@ pygame.draw.line(window, black, (200,250), (250, 250))
 pygame.display.flip()
 
 # Get input to pause the program
-# ---> TEST AFTER THIS LINE <--- #
 input()
-
 
 
 
