@@ -1,9 +1,3 @@
-
-"""
-LESSON: 3.1 - Lines
-EXERCISE: Shape Conspiracy
-"""
-
 #### ---- SETUP ---- ####
 
 # Pygame
@@ -54,6 +48,3 @@ pygame.draw.line(window, black, (200, 250), (250, 350), 15)
 #### ---- FINISH ---- ####
 pygame.display.flip()
 input("Press enter to close the window")
-
-
-# Turn in your Coding Exercise.
