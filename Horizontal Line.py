@@ -8,7 +8,5 @@ black = (0, 0, 0)
 pygame.draw.line(w, black, (200, 0), (200, 400), 2)
 pygame.draw.line(w, black, (0, 200), (400, 200), 2)
 
-
-
 pygame.display.flip()
 input("Press enter to close window")
