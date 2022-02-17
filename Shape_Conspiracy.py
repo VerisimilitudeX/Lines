@@ -1,20 +1,12 @@
-#### ---- SETUP ---- ####
-
-# Pygame
 import pygame
 pygame.init()
 
-# Window
 w = 500
 h = 500
 window = pygame.display.set_mode([w, h])
 window.fill((255, 255, 255))
 black = (0, 0, 0)
 
-
-#### ---- DRAWING ---- ####
-
-# Grid lines
 size = 50
 x = size
 y = size
@@ -44,7 +36,5 @@ pygame.draw.line(window, black, (250, 150), (300, 250), 15)
 pygame.draw.line(window, black, (300, 250), (250, 350), 15)
 pygame.draw.line(window, black, (200, 250), (250, 350), 15)
 
-
-#### ---- FINISH ---- ####
 pygame.display.flip()
 input("Press enter to close the window")
