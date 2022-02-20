@@ -1,11 +1,8 @@
 import pygame
 
 pygame.init()
-
 window = pygame.display.set_mode([500, 300])
-
 window.fill((255, 255, 255))
-
 black = (0, 0, 0)
 
 top_left = (30, 0)
